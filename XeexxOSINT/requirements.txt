@@ -1,0 +1,12 @@
+The main core:
+pip install requests new version
+=========================
+The main modules:
+pip install phonenumbers new version
+pip install dnspython new version
+pip install python-whois new version
+===========================
+Whois Lookup gui:
+python -c "import whois; print(whois.__file__); print(hasattr(whois, 'whois'))"
+
+Requires Python 3.8+
